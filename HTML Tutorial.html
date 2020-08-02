@@ -1,0 +1,3447 @@
+<!DOCTYPE html>  <!-- declaration defines this document to be HTML5 -->
+<html>
+<head>
+    <title>HTML TUTORIAL</title>
+    <!-- <meta http-equiv="refresh" content="300;">   300 saniyede bir sayfayı yeniler -->
+</head>
+<body>
+    <!-- sayfanın içindeki bilgileri içerir -->  
+        
+
+    <!-- __________ HTML BASICS __________ -->
+    <!-- <br>:  boş satır ekler -->
+    <!-- <hr>:  yeni satıra dümdüz çizgi çeker -->
+
+
+
+    <!-- *HTML Headings* -->
+    <!-- HTML headings are defined with the <h1> to <h6> tags -->
+    <!-- <h1> defines the most important heading. <h6> defines the least important heading -->
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    
+
+
+    <!-- *HTML Paragraphs* -->
+    <!-- HTML paragraphs are defined with the <p> tag -->
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+
+
+    <!-- *HTML Links* -->
+    <!-- HTML links are defined with the <a> tag -->
+    <!-- link's destination is specified in the href attribute -->
+    <a href="https://www.w3schools.com">This is a link</a>
+    
+
+
+    <!-- *HTML Images* -->
+    <!-- HTML images are defined with the <img> tag -->
+    <!-- source file (src), alternative text (alt), width, and height are provided as attributes -->
+    <img src="fb.jpg" alt="W3Schools.com" width="104" height="142">
+    
+
+
+    <!-- *HTML Buttons* -->
+    <button>Click me</button>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML ELEMENTS __________ -->
+    <!-- HTML element usually consists of a start tag and an end tag, with the content inserted in between -->
+    
+    
+
+    <!-- <h1> element defines a heading -->
+    <!-- it has a start tag <h1> and an end tag </h1> -->
+    <h1>My First Heading</h1>
+
+
+
+    <!-- <p> element defines a paragraph -->
+    <!-- it has a start tag <p> and an end tag </p> -->
+    <p>My first paragraph.</p>
+    
+    
+
+
+
+
+
+
+    <!-- __________ HTML ATTRIBUTES __________ -->
+    <!-- all HTML elements can have attributes -->
+    <!-- attributes provide additional information about an element -->
+    <!-- attributes are always specified in the start tag -->
+    <!-- attributes usually come in name/value pairs like: name="value" -->
+
+
+
+    <!-- *The href Attribute* -->
+    <!-- HTML links are defined with the <a> tag. The link address is specified in the "href" attribute -->
+    <a href="https://www.w3schools.com">This is a link</a>
+
+
+
+    <!-- *The src Attribute* -->
+    <!-- HTML images are defined with the <img> tag -->
+    <!-- The filename of the image source is specified in the "src" attribute -->
+    <img src="kapadokya.jpg"><br>
+    
+
+
+    <!-- *The width and height Attributes* -->
+    <!--  HTML images also have "width" and "height" attributes, which specifies the "width" and "height" of the image -->
+    <img src="kapadokya.jpg" width="500" height="600">
+    
+    
+
+    <!-- *The alt Attribute* -->
+    <!-- "alt" attribute specifies an alternative text to be used, if an image cannot be displayed -->
+    <!-- resimle alakalı bir şey yazılır. eğer resim yoksa yazılan yazı çıkar -->
+    <img src="jordan.jpg" alt="Michael Jordan">
+    
+
+
+    <!-- *The style Attribute* -->
+    <!-- "style" attribute is used to specify the styling of an element, like color, font, size etc -->
+    <p style="color:red">This is a red paragraph.</p>    
+
+
+
+    <!-- *The title Attribute* -->
+    <!-- the value of the "title" attribute will be displayed as a tooltip when you mouse over the paragraph -->
+    <!-- mouse'u paragraf üstüne getirirsek title'a atadığımız yazı tooltip olarak gözkükür -->
+    <p title="I'm a tooltip">
+        This is a paragraph.
+    </p>     
+    
+    
+
+
+
+
+
+
+    <!-- __________ HTML HEADINGS __________ -->
+    <!-- headings are defined with the <h1> to <h6> tags -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+
+
+    <!-- *Bigger Headings* -->
+    <!-- each HTML heading has a default size. However, you can specify the size for any heading with the "style" attribute, using the CSS "font-size" property -->
+    <h1 style="font-size:60px;">Heading 1</h1>
+
+
+
+    <!-- *HTML <head> Element* -->
+    <!-- HTML <head> element is a container for metadata. HTML metadata is data about the HTML document. Metadata is not displayed -->
+    
+
+
+
+
+
+
+
+    <!-- __________ HTML PARAGRAPHS __________ -->
+    <!-- HTML <p> element defines a paragraph -->
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+
+
+    <!-- *HTML <pre> Element* -->
+    <!-- HTML <pre> element defines preformatted text -->
+    <pre>
+        My Bonnie lies over the ocean.
+          
+        My Bonnie lies over the sea.
+          
+        My Bonnie lies over the ocean.
+          
+        Oh, bring back my Bonnie to me.
+    </pre>
+    <!-- alt satıra geçmek için <br> yazmamıza gerek kalmaz -->
+    <!-- yukarıda göründüğü gibi sayfada yazdırır -->
+
+
+
+
+
+
+
+
+    <!-- __________ HTML STYLES __________ -->
+    
+    <!-- *HTML Style Attribute* -->
+    <!-- setting the style of an HTML element, can be done with the "style" attribute -->
+    <!-- HTML style attribute has the following syntax: -->
+    <!-- 
+        <tagname style="property:value;"></tagname> 
+    -->
+
+
+
+    <!-- *Background Color* -->
+    <body style="background-color: powderblue;">
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+    </body>
+
+
+
+    <!-- *Text Color* -->
+    <h1 style="color: blue;">This is a heading</h1>
+    <p style="color: red;">This is a paragraph.</p>
+
+
+
+    <!-- *Font* -->
+    <!-- CSS font-family property defines the font to be used for an HTML element -->
+    <h1 style="font-family: Arial;">This is a heading</h1>
+    <p style="font-family: courier;">This is a paragraph.</p>
+    
+
+
+    <!-- *Text Size* -->
+    <!-- %500:   5 kat büyütür -->
+    <!-- 500px:  boyutu 500 pixel yapar-->
+    <h1 style="font-size: 300%;">This is a heading</h1>
+    <p style="font-size: 160px;">This is a paragraph.</p>
+
+
+
+    <!-- *Text Alignment* -->
+    <!-- yazının nerede yer alacağını belirtir -->
+    <h1 style="text-align: center;">Centered Heading</h1>
+    <p style="text-align: right;">right paragraph.</p>
+    
+       
+
+
+
+
+
+
+    <!-- __________ HTML TEXT FORMATTING __________ -->
+
+    <!-- *HTML <b> and <strong> Elements* -->
+    <!-- HTML <b> element defines bold text, without any extra importance -->
+    <!-- HTML <strong> element defines strong text, with added semantic "strong" importance -->
+    <b>This text is bold</b>
+    <strong>This text is strong</strong>
+    
+
+
+    <!-- *HTML <i> and <em> Elements* -->
+    <!-- HTML <i> element defines italic text, without any extra importance -->
+    <!-- HTML <em> element defines emphasized text, with added semantic importance -->
+    <i>This text is italic</i>
+    <em>This text is emphasized</em>
+
+
+
+    <!-- *Beraber Kullanım* -->
+    <b><i>Bu paragraf kalın ve italic</i></b>
+    <h1 style="background-color: royalblue;"><b><i>Kalın ve italic başlık</i></b></h1>
+    
+
+
+    <!-- *HTML <small> Element* -->
+    <!-- HTML <small> element defines smaller text -->
+    <h2>HTML <small>Small</small> Formatting</h2>
+     
+    
+
+    <!-- *HTML <mark> Element* -->
+    <!-- HTML <mark> element defines marked/highlighted text -->
+    <!-- mark kısmı daima sarı renkte olur -->
+    <h2>HTML <mark>Marked</mark> Formatting</h2>
+
+
+
+    <!-- *HTML <del> Element* -->
+    <!-- HTML <del> element defines deleted/removed text -->
+    <!-- <del> kısmına yazılan kelimelerin üstü çizili olur -->
+    <p>My favorite color is <del>blue</del> red.</p>    
+
+
+
+    <!-- *HTML <ins> Element* -->
+    <!-- HTML <ins> element defines inserted/added text -->
+    <!-- <ins> kısmına yazılan kısmın altı çizilir olur -->
+    <p>My favorite <ins>color</ins> is red.</p>
+    
+
+
+    <!-- *HTML <sub> Element* -->
+    <!-- HTML <sub> element defines subscripted text -->
+    <p>This is <sub>subscripted</sub> text.</p>
+    
+
+
+    <!-- *HTML <sup> Element* -->
+    <!-- HTML <sup> element defines superscripted text -->   
+    <p>This is <sup>superscripted</sup> text.</p>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML QUOTATION and CITATION ELEMENTS __________ -->
+
+    <!-- *HTML <q> for Short Quotations* -->
+    <!-- HTML <q> element defines a short quotation -->
+    <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+    
+
+
+    <!-- *HTML <blockquote> for Quotations* -->
+    <!-- HTML <blockquote> element defines a section that is quoted from another source -->
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature.
+        The world's leading conservation organization,
+        WWF works in 100 countries and is supported by
+        1.2 million members in the United States and
+        close to 5 million globally.
+    </blockquote>
+
+
+
+    <!-- *HTML <abbr> for Abbreviations* -->
+    <!-- kısaltmalarda kullanılır -->
+    <!-- kısaltmanın üstüne geldiğimizde açılımı gözükür (title sayesinde) -->
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+    
+
+
+    <!-- *HTML <address> for Contact Information* -->
+    <!-- <address> element is usually displayed in italic. Most browsers will add a line break before and after the element -->
+    <address>
+        Written by John Doe.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+
+
+
+    <!-- *HTML <cite> for Work Title* -->
+    <!-- HTML <cite> element defines the title of a work -->
+    <!-- Browsers usually display <cite> elements in italic -->
+    <!-- <cite> ın içerisinde kalan kısım italic olur -->
+    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>    
+    
+
+
+
+
+
+
+
+    <!-- __________ HTML COLORS __________ -->
+
+    <!-- *Background Color* -->
+    <h1 style="background-color: DodgerBlue;">Hello World</h1>
+    <p style="background-color: Tomato;">Lorem ipsum...</p>
+
+
+
+    <!-- *Text Color* -->
+    <h1 style="color: Tomato;">Hello World</h1>
+    <p style="color: DodgerBlue;">Lorem ipsum...</p>
+    <p style="color: MediumSeaGreen;">Ut wisi enim...</p>
+
+
+
+    <!-- *Border Color* -->
+    <h1 style="border: 2px solid black;">Hello World</h1>
+    <h1 style="border: 3px solid DodgerBlue;">Hello World</h1>
+    <h1 style="border: 5px solid Violet;">Hello World</h1>
+    
+
+
+    <!-- *Color Values* -->
+    <!-- in HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values -->
+    <h1 style="background-color: rgb(255, 99, 71);">...</h1>
+    <h1 style="background-color: #ff6347;">...</h1>
+    <h1 style="background-color: hsl(9, 100%, 64%);">...</h1>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML LINKS __________ -->
+    <!-- links are found in nearly all web pages. Links allow users to click their way from page to page -->
+
+
+
+    <!-- *HTML Links - Hyperlinks* -->
+    <!-- HTML links are hyperlinks -->
+    <!-- you can click on a link and jump to another document -->
+    <!-- when you move the mouse over a link, the mouse arrow will turn into a little hand -->
+    <!-- a link does not have to be text. It can be an image or any other HTML element -->
+
+
+
+    <!-- *HTML Links - Syntax*-->
+    <!-- hyperlinks are defined with the HTML <a> tag -->
+    <!-- "href" attribute specifies the destination address -->
+    <a href="https://www.google.com/">Google linki</a><br>
+
+
+
+    <!-- *Local Links* -->
+    <!-- the example above used an absolute URL (a full web address) -->
+    <!-- local link (link to the same web site) is specified with a relative URL (without https://www....) -->
+    <a href="html_images.asp">HTML Images</a><br>
+
+
+
+    <!-- *HTML Links - The target Attribute* -->
+    <!-- "target" attribute specifies where to open the linked document -->
+    <!-- _blank:   Opens the linked document in a new window or tab -->
+    <!-- _self:    Opens the linked document in the same window/tab as it was clicked (this is default) -->
+    <!-- _parent:  Opens the linked document in the parent frame -->
+    <!-- _top:     Opens the linked document in the full body of the window -->
+    <a href="https://eksisozluk.com/" target="_blank">ekşiye gir (_blank)</a><br>
+    <a href="https://eksisozluk.com/" target="_top">ekşiye gir (_top)</a><br>
+    
+
+
+    <!-- *HTML Links - Image as a Link* -->
+    <!-- we can use images as links -->
+    <!-- border:0; is added to prevent IE9 (and earlier) from displaying a border around the image (when the image is a link) -->
+    <p>Resme tıkla ve Michael Jordan'ın hayatını oku</p>
+    <a href="https://tr.wikipedia.org/wiki/Michael_Jordan">
+        <img src="jordan.jpg" alt="Michael Jordan" style="width: 140px; height: 140px; border: 0;">
+    </a><br>
+
+
+
+    <!-- *Button as a Link* -->
+    <!-- to use an HTML button as a link, you have to add some JavaScript code -->
+    <!-- JavaScript allows you to specify what happens at certain events, such as a click of a button -->
+    <button onclick="document.location = 'default.asp'">HTML Tutorial</button><br>
+
+
+
+    <!-- *Link Titles* -->
+    <!-- "title" attribute specifies extra information about an element -->
+    <!-- the information is most often shown as a tooltip text when the mouse moves over the element -->
+    <a href="https://www.fenerbahce.org/" title="FB resmi sitesine git">Fenerbahçe Spor Kulübü </a>
+
+
+
+    <!-- *External Paths* -->
+    <!-- external pages can be referenced with a full URL or with a path relative to the current web page -->
+
+    <!-- This example uses a full URL to link to a web page: -->
+    <a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a>
+
+    <!-- This example links to a page located in the html folder on the current web site: -->
+    <a href="/html/default.asp">HTML tutorial</a>
+
+    <!-- This example links to a page located in the same folder as the current page: -->
+    <a href="default.asp">HTML tutorial</a>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML LINK COLORS __________ -->
+    <!--
+        by default, a link will appear like this (in all browsers):
+        unvisited links:  underlined and blue
+        visited links:    underlined and purple
+        active links:     underlined and red
+        you can change the default colors, by using CSS
+    -->
+    <!--
+        link:     link rengi 
+        visited:  daha önceden tıklanmış link rengi 
+        hover:    linkin üstüne gelince gözüken renk 
+        active:   linke basıldığı anca gözüken renk 
+    -->
+    <head>
+        <style>
+            a:link {
+                color: green;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:visited {
+                color: pink;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:hover {
+                color: red;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+            a:active {
+                color: yellow;
+                background-color: transparent;
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body> 
+        <h2>Link Colors</h2>
+        <a href="html_images.asp" target="_blank">HTML Images</a> 
+    </body>
+
+
+
+    <!-- *Link Buttons* -->
+    <!-- a link can also be styled as a button, by using CSS -->
+    <!-- linkler buton şeklinde olur -->
+    <style>
+        a:link, a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        a:hover, a:active {
+            background-color: red;
+        }
+    </style>
+
+
+
+    <!-- *HTML Link Bookmarks* -->
+    <!-- HTML bookmarks are used to allow readers to jump to specific parts of a Web page -->
+    <!-- bookmarks can be useful if a webpage is very long -->
+    <body>
+        <p><a href="#C4">Jump to Chapter 4</a></p>
+        <p><a href="#C7">Jump to Chapter 7</a></p>
+        
+        <h2>Chapter 1</h2>
+        <p>This chapter explains ba bla bla</p>
+        <h2>Chapter 2</h2>
+        <p>This chapter explains ba bla bla</p>   
+        <h2>Chapter 3</h2>
+        <p>This chapter explains ba bla bla</p>
+        <h2 id="C4">Chapter 4</h2>
+        <p>This chapter explains ba bla bla</p>
+        <h2>Chapter 5</h2>
+        <p>This chapter explains ba bla bla</p>
+        <h2>Chapter 6</h2>
+        <p>This chapter explains ba bla bla</p>
+        <h2 id="C7">Chapter 7</h2>
+        <p>This chapter explains ba bla bla</p>
+    <body>
+
+
+
+
+
+    
+
+    
+    <!-- __________ HTML IMAGES __________ -->
+    <!-- "alt" attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader) -->
+    <!-- "alt" kullanmak şart değil ama kullanılması daha iyi -->
+    <!-- eğer ilgili jpg yoksa alt'ta belirlenen şey yazar -->
+    <img src="futbol.jpg" alt="Futbol">
+
+
+
+    <!-- *Image Size - Width and Height* -->
+    <!-- you can use the "style" attribute to specify the width and height of an image -->
+    <!-- alternatively, you can use the "width" and "height" attributes-->
+    <!-- style'lı kullanım daha çok önerilir -->
+    <img src="futbol.jpg" alt="Futbol" style="width: 100px; height: 120px;"><br>
+    <img src="futbol.jpg" alt="Futbol" width="100" height="120"><br>
+
+
+
+    <!-- *Animated Images* -->
+    <!-- HTML allows animated GIFs -->
+    <img src="love.gif" alt="aşk" style="width: 150px; height: 150px;"><br>
+    
+
+
+    <!-- *Image as a Link* -->
+    <!-- to use an image as a link, put the <img> tag inside the <a> tag -->
+    <!-- border:0; is added to prevent IE9 (and earlier) from displaying a border around the image (when the image is a link) -->
+    <a href="www.google.com">
+        <img src="google.jpg" alt="google" style="width: 500px; height: 200px; border: 0;"><br>
+    </a>    
+
+
+
+    <!-- *Image Floating* -->
+    <!-- use the CSS float property to let the image float to the right or to the left of a text -->
+    <p>
+        <img src="kapadokya.jpg" alt="kapadokya" style="float: right; width: 200px; height: 200px;">
+        Kapadokya, güzel atlar ülkesi anlamına gelen (Kappadokia) 60 milyon yıl önce Erciyes, Hasandağı ve Güllüdağ’ın püskürttüğü lav ve küllerin oluşturduğu yumuşak tabakaların milyonlarca yıl boyunca yağmur ve rüzgar tarafından aşındırılmasıyla ortaya çıkan bölge
+    </p><br><br><br><br><br>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML IMAGE MAPS  __________ -->
+    <!-- with image maps, you can add clickable areas on an image -->
+
+
+
+    <!-- *Image Maps* -->
+    <!-- <map> tag defines an image-map. An image-map is an image with clickable areas -->
+    <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://tr.wikipedia.org/wiki/Bilgisayar">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://tr.wikipedia.org/wiki/Telefon">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://tr.wikipedia.org/wiki/Kahve">
+    </map>
+    <!-- aşağıda hepsini tek tek incelicez --> 
+    
+    
+
+    <!-- 1)The Image -->
+    <!-- image is inserted using the <img> tag. The only difference from other images is that you must add a "usemap" attribute -->
+    <!-- usemap value starts with a hash tag # followed by the name of the image map, and is used to create a relationship between the image and the image map -->
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+
+
+    <!-- 2)The Map -->
+    <!-- then add a <map> element -->
+    <!-- <map> element is used to create an image map, and is linked to the image by using the "name" attribute -->
+    <!-- "name" attribute must have the same value as the "usemap" attribute-->
+    <map name="workmap">
+
+    
+
+    <!-- 3)The Areas -->
+    <!-- then add the clickable areas -->
+    <!-- clickable area is defined using an <area> element -->
+
+
+
+    <!-- 4)Shape -->
+    <!-- you must define the shape of the area, and you can choose one of these values -->
+    <!-- 
+        rect:     defines a rectangular region
+        circle:   defines a circular region
+        poly:     defines a polygonal region
+        default:  defines the entire region
+    -->
+
+
+
+    
+    <!-- 5)Coordinates -->
+    <!-- you must define some coordinates to be able to place the clickable area onto the image -->
+    <!-- the coordinates come in pairs, one for the x-axis and one for the y-axis -->
+    
+    <!-- a)Rectangular Area -->
+    <!-- the coordinates 34, 44 is located 34 pixels from the left margin and 44 pixels from the top -->
+    <!-- he coordinates 270, 350 is located 270 pixels from the left margin and 350 pixels from the top -->
+    <!-- now you have enough data to create a clickable rectangular area -->
+    <area shape="rect" coords="34, 44, 270, 350" href="https://tr.wikipedia.org/wiki/Bilgisayar">
+
+    <!-- b)Circle Area -->
+    <!-- to add a circle area, first locate the coordinates of the center of the circle: 337, 300 -->
+    <!-- then specify the radius of the circle: 44 pixels -->
+    <!-- now you have enough data to create a clickable circular area -->
+    <area shape="circle" coords="337, 300, 44" href="https://tr.wikipedia.org/wiki/Kahve">
+    
+
+
+    <!-- *Image Map and JavaScript* -->
+    <!-- a clickable area does not have to be a link to another page, it can also trigger a JavaScript function -->
+    <!-- add a click event on the <area> element to execute a JavaScript function -->
+    <!-- you can use the onclick attribute to execute a JavaScript function when the area is clicked -->
+    <area shape="circle" coords="337,300,44" onclick="myFunction()">
+
+
+
+
+
+
+
+
+    <!-- __________ HTML BACKGROUND IMAGES __________ -->
+    <!-- to add a background image in HTML, use the CSS property "background-image" -->
+
+    
+
+    <!-- *Background Image on HTML Element* -->
+    <!-- to add a background image on an HTML element, you can use the "style" attribute -->
+    <div style="background-image: url('wallpaper.jpg');">
+        BACKGROUND<br>
+        IMAGE<br>
+        ON<br>
+        HTML<br>
+        ELEMENT<br>
+    </div>
+
+    <!-- you can also specify the background image in the <style> element -->
+    <style>
+        div {
+            background-image: url('wallpaper2.jpg');
+        }
+    </style>
+    <div>
+        BACKGROUND<br>
+        IMAGE<br>
+        ON<br>
+        HTML<br>
+        ELEMENT<br>
+    </div>
+
+
+
+    <!-- *Background Image on a Page* -->
+    <!-- if you want the entire page to have a background image, then you must specify the background image on the <body> element -->
+    <style>
+        body {
+            background-image: url('wallpaper3.jpg');
+        }
+    </style>
+
+
+
+    <!-- *Background Repeat* -->
+    <!-- if the background image is smaller than the element, the image will repeat itself, horizontally and vertically, until it has reach the end of the element -->
+    <!-- to avoid the background image from repeating itself, use the "background-repeat" property -->
+    <style>
+        body {
+          background-image: url('fb.jpg');
+          background-repeat: no-repeat;
+        }
+    </style>
+
+
+
+    <!-- *Background Cover* -->
+    <!-- if you want the background image cover the entire element, you can set the background-size property to "cover" -->
+    <!-- also, to make sure the entire element is always covered, set the "background-attachment" property to "fixed" -->
+    <style>
+        body {
+          background-image: url('fb.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+    </style>
+
+
+
+    <!-- *Background Stretch* -->
+    <!-- if  you want  the background image stretch to fit the entire image in the element, you can set the background-size property to 100% 100% -->
+    <!-- you will see that the image will stretch, but always cover the entire element -->
+    <style>
+        body {
+          background-image: url('wallpaper3.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+    </style>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML TABLES __________ -->
+
+    <!-- *Defining an HTML Table* -->
+    <!-- HTML table is defined with the <table> tag -->
+    <!--
+        <tr>:  tablo satırları  
+        <th>:  tablo başlıkları
+        <td>:  başlıktaki veriler
+    -->
+    <!-- her <tr> de bir alt satıra geçer -->
+    <table style="width: 100%">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+    </table>
+
+
+
+    <!-- *Adding a Border* -->
+    <!-- if you do not specify a border for the table, it will be displayed without borders -->
+    <!-- use the CSS "border" property -->
+    <style>
+        table, th, td {
+            border: 2px solid black;
+        }
+    </style>
+
+
+
+    <!-- *Collapsed Borders* -->
+    <!-- tablonun ayrı ayrı kutucuk gözüken görüntüsü gider -->
+    <!-- use the CSS "border-collapse" property -->
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
+
+
+    <!-- *Adding Cell Padding* -->
+    <!-- cell padding specifies the space between the cell content and its borders -->
+    <!-- use the CSS "padding" property -->
+    <style>
+        th, td {
+            padding: 15px;
+        }       
+    </style>
+
+
+
+    <!-- *Left-align Headings* -->
+    <!-- by default, table headings are bold and centered -->
+    <!-- tabloda yazan yazılar soldan başlar -->
+    <!-- use the CSS "text-align" property -->
+    <style>
+        th {
+            text-align: left;
+        }
+    </style>
+
+
+
+    <!-- *Adding Border Spacing* -->
+    <!-- border spacing specifies the space between the cells -->
+    <!-- tablolar ayrı ayrı kutucuklar biçminde gözükür -->
+    <!-- use the CSS "border-spacing" property -->
+    <!-- if the table has collapsed borders, border-spacing has no effect-->
+    <style>
+        table {
+            border-spacing: 45px;
+        }
+    </style>
+    
+
+
+    <!-- *Cells that Span Many Columns* -->
+    <!-- use the "colspan" attribute -->
+    <table style="width: 100%">
+        <tr>
+          <th>Name</th>
+          <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+          <td>Bill Gates</td>
+          <td>55577854</td>
+          <td>55577855</td>
+        </tr>
+    </table>
+    <!-- "telephone" kısmı 2 sütunu birden kapsar -->
+
+
+
+    <!-- *Cells that Span Many Rows* -->
+    <!-- use the "rowspan" attribute -->
+    <table style="width: 100%">
+        <tr>
+          <th>Name:</th>
+          <td>Bill Gates</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Telephone:</th>
+          <td>55577854</td>
+        </tr>
+        <tr>
+          <td>55577855</td>
+        </tr>
+    </table>
+    <!-- "telephone" kısmı 2 satırı birden kapsar -->
+
+
+
+    <!-- *Adding a Caption* -->
+    <!-- tablonun üstünde başlık yazar -->
+    <!-- use the <caption> tag -->
+    <!-- the <caption> tag must be inserted immediately after the <table> tag -->
+    <table style="width: 100%">
+        <caption>Monthly savings</caption>
+            <tr>
+              <th>Month</th>
+              <th>Savings</th>
+            </tr>
+            <tr>
+              <td>January</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>February</td>
+              <td>$50</td>
+            </tr>
+    </table>
+
+
+
+    <!-- *Special Style for One Table* -->
+    <!-- add an "id" attribute to the table-->
+    <table id="t01">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Ahmet</td>
+          <td>Yeniçeri</td>
+          <td>22</td>
+        </tr>
+        <tr>
+            <td>Safa</td>
+            <td>Uraşkan</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Hüseyin</td>
+            <td>Akyüz</td>
+            <td>25</td>
+        </tr>
+    </table>
+    <style>
+        table#t01 tr:nth-child(even) {
+            background-color: blue;
+        }
+        table#t01 tr:nth-child(odd) {
+            background-color: red;
+        }
+        table#t01 th {
+            color: white;
+            background-color: black;
+        }
+    </style>
+    <!-- tek satırlar mavi, çift satırlar kırmızı oldu -->
+    <!-- tek çift ayrımı yapılmak istenmezse sadece "table#t01" yazılır -->
+    <!-- başlıklar (th) siyah oldu -->
+
+
+
+
+
+
+
+
+    <!-- __________ HTML LISTS __________ -->
+
+    <!-- 1)Unordered HTML List -->
+    <!-- unordered list starts with the <ul> tag -->
+    <!-- each list item starts with the <li> tag -->
+    <!-- list items will be marked with bullets (small black circles) by default -->
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+
+
+    <!-- *Unordered HTML List - Choose List Item Marker* -->
+    <!-- CSS "list-style-type" property is used to define the style of the list item marker -->
+    <!--
+        disc:    Sets the list item marker to a bullet (default)
+        circle:  Sets the list item marker to a circle
+        square:  Sets the list item marker to a square
+        none:    The list items will not be marked
+    -->
+    <ul style="list-style-type: disc;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <ul style="list-style-type: circle;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <ul style="list-style-type: square;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <ul style="list-style-type: none;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+
+
+
+
+    <!-- 2)Ordered HTML List -->
+    <!-- ordered list starts with the <ol> tag -->
+    <!-- each list item starts with the <li> tag -->
+    <!-- list items will be marked with numbers by default -->
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+
+
+    <!-- *Ordered HTML List - The Type Attribute* -->
+    <!-- "type" attribute of the <ol> tag, defines the type of the list item marker -->
+    <!--
+        type="1":  list items will be numbered with numbers (default)
+        type="A":  list items will be numbered with uppercase letters
+        type="a":  list items will be numbered with lowercase letters
+        type="I":  list items will be numbered with uppercase roman numbers
+        type="i":  list items will be numbered with lowercase roman numbers
+    -->
+
+    <ol type="1">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <ol type="A">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <ol type="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <ol type="I">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+
+
+
+
+    <!-- *HTML Description Lists* -->
+    <!-- HTML also supports description lists -->
+    <!--
+        <dl>:  defines the description list
+        <dt>:  defines the term (name)
+        <dd>:  açıklama kısmı
+    -->
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>   
+
+
+
+    <!-- *Nested HTML Lists* -->
+    <!-- list can be nested (lists inside lists)-->
+    <ul>
+        <li>Coffee</li>
+        <li>Tea
+          <ul>
+            <li>Black tea</li>
+            <li>Green tea</li>
+          </ul>
+        </li>
+        <li>Milk</li>
+    </ul>
+
+
+
+    <!-- *Control List Counting* -->
+    <!-- by default, an ordered list will start counting from 1 -->
+    <!-- if you want to start counting from a specified number, you can use the "start" attribute -->
+    <ol start="50">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+
+
+
+
+
+      
+
+    <!-- __________ HTML BLOCKS __________ -->
+
+    <!-- 1)Block-level Elements -->
+    <!-- a block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can) -->
+    <div>Hello World</div>
+    
+    <!-- block level elements in HTML: -->
+    <!--
+        <address>, <canvas>, <dt>, <footer>, <hr>, <noscript>, <section>
+        <article>, <dd>, <fieldset>, <form>, <li>, <ol>, <table>, <video>
+        <aside>, <div>, <figcaption>, <h1>-<h6>, <main>, <p>, <tfoot>
+        <blockquote>, <dl>, <figure>, <header>, <nav>, <pre>, <ul>
+    -->
+    
+
+
+    <!-- *The <div> Element* -->
+    <!-- <div> element is often used as a container for other HTML elements -->
+    <!-- <div> element has no required attributes, but "style", "class" and "id" are common -->
+    <!-- when used together with CSS, the <div> element can be used to style blocks of content -->
+    <div style="background-color: black;color: white;padding: 20px;">
+        <h2>London</h2>
+        <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    </div>    
+
+
+
+
+
+    <!-- 2)Inline Elements -->
+    <!-- an inline element does not start on a new line and only takes up as much width as necessary -->
+    <span>Hello World</span>
+
+    <!-- inline elements in HTML: -->
+    <!--
+        <a>, <bdo>, <cite>, <i>, <label>, <q>, <small>, <sup>, <var>
+        <abbr>, <big>, <code>, <img>, <map>, <samp>, <span>, <textarea>
+        <acronym>, <br>, <dfn>, <input>, <object>, <script>, <strong>, <time>
+        <b>, <button>, <em>, <kbd>, <output>, <select>, <sub>, <tt>
+    -->
+
+
+
+    <!-- *The <span> Element* -->
+    <!-- <span> element is often used as a container for some text -->
+    <!-- <span> element has no required attributes, but "style", "class" and "id" are common -->
+    <!-- when used together with CSS, the <span> element can be used to style parts of the text -->
+    <h1>My <span style="color:red">Important</span> Heading</h1>
+
+
+
+
+
+
+
+    
+    <!-- __________ HTML CLASSES __________ -->
+
+    <!-- *The class Attribute* -->
+    <!-- HTML class attribute is used to define equal styles for elements with the same class name -->
+    <!-- so, all HTML elements with the same class attribute will get the same style -->
+    <!-- here we have three <div> elements that point to the same class name -->
+    <head>
+        <style>
+            .cities {
+                background-color: black;
+                color: white;
+                margin: 20px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cities">
+            <h2>London</h2>
+            <p>London is the capital of England.</p>
+        </div>
+            
+        <div class="cities">
+            <h2>Paris</h2>
+            <p>Paris is the capital of France.</p>
+        </div>
+            
+        <div class="cities">
+            <h2>Tokyo</h2>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+    </body>    
+
+
+
+    <!-- *Using The class Attribute on Inline Elements* -->
+    <!-- HTML class attribute can also be used on inline elements -->
+    <head>
+        <style>
+            span.note {
+                font-size: 120%;
+                color: red;
+            }
+        </style>
+    </head>
+    <body>   
+        <h1>My <span class="note">Important</span> Heading</h1>
+        <p>This is some <span class="note">important</span> text.</p>
+    </body>
+
+
+
+    <!-- *Select Elements With a Specific Class* -->
+    <!-- in CSS, to select elements with a specific class, write a period (.) character, followed by the name of the class -->
+    <style>
+        .city {
+            background-color: tomato;
+            color: white;
+            padding: 10px;
+        }
+    </style> 
+    
+    <h2 class="city">London</h2>
+    <p>London is the capital of England.</p>
+        
+    <h2 class="city">Paris</h2>
+    <p>Paris is the capital of France.</p>
+        
+    <h2 class="city">Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+
+
+
+    <!-- *Multiple Classes* -->
+    <!-- HTML elements can have more than one class name, each class name must be separated by a space -->
+    <h2 class="city main">London</h2>
+    <h2 class="city">Paris</h2>
+    <h2 class="city">Tokyo</h2>
+    <!-- in the example above, the first <h2> element belongs to both the "city" class and the "main" class -->
+    
+
+
+    <!-- *Different Tags Can Share Same Class* -->
+    <!-- different tags, like <h2> and <p>, can have the same class name and thereby share the same style -->
+    <h2 class="city">Paris</h2>
+    <p class="city">Paris is the capital of France</p>
+
+
+
+    <!-- *Using The class Attribute in JavaScript* -->
+    <!-- JavaScript can access elements with a specified class name by using the getElementsByClassName() method -->
+    <script>
+        function myFunction() {
+          var x = document.getElementsByClassName("city");
+          for (var i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+        }
+    </script>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML ID ATTRIBUTE __________ -->
+    <!-- "id" attribute specifies a unique id for an HTML element (the value must be unique within the HTML document) -->
+    <!-- id value can be used by CSS and JavaScript to perform certain tasks for the element with the specific id value -->
+    <!-- in CSS, to select an element with a specific id, write a hash (#) character, followed by the id of the element -->
+    <head>
+        <style>
+            #myHeader {
+                background-color: lightblue;
+                color: black;
+                padding: 40px;
+                text-align: center;
+            } 
+        </style>
+    </head>
+    <body>
+        <h1 id="myHeader">My Header</h1>
+    </body>
+
+
+
+    <!-- *Difference Between Class and ID* -->
+    <!-- HTML element can only have one unique id that belongs to that single element, while a class name can be used by multiple elements -->
+    <head>
+        <style>
+            #myHeader {
+                background-color: lightblue;
+                color: black;
+                padding: 40px;
+                text-align: center;
+            }
+
+            .city {
+                background-color: seagreen;
+                color: white;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="myHeader">My Cities</h1>
+        <h2 class="city">Paris</h2>
+        <h2 class="city">London</h2>
+        <h2 class="city">İstanbul</h2>
+    </body>
+
+
+
+    <!-- Using The id Attribute in JavaScript -->
+    <!-- JavaScript can access an element with a specified id by using the getElementById() method -->
+    <script>
+        function displayResult() {
+          document.getElementById("myHeader").innerHTML = "Have a nice day!";
+        }
+    </script>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML IFRAMES __________ -->
+    <!-- iframe is used to display a web page within a web page -->
+
+
+
+    <!-- *Iframe Syntax* -->
+    <!-- HTML iframe is defined with the <iframe> tag -->
+    <!-- "src" attribute specifies the URL (web address) of the inline frame page -->
+    <iframe src="URL"></iframe>
+
+
+
+    <!-- *Set Height and Width* -->
+    <!-- use the "height" and "width" attributes to specify the size of the iframe -->
+    <!--  height and width are specified in pixels by default -->
+    <iframe src="https://lichess.org/" height="200" width="300"></iframe>
+    
+    <!-- or you can use CSS to set the height and width of the iframe -->
+    <iframe src="https://eksisozluk.com/" style="height: 200px; width: 200px;"></iframe>
+        
+    
+
+    <!-- *Remove the Border* -->
+    <!-- by default, an iframe has a border around it -->
+    <!-- to remove the border, add the "style" attribute and use the CSS "border" property -->
+    <iframe src="https://eksisozluk.com/" style="border: none;"></iframe>
+
+    <!-- with CSS, you can also change the size, style and color of the iframe's border -->
+    <iframe src="https://eksisozluk.com/" style="border:2px solid red;"></iframe>
+    
+
+
+    <!-- *Target for a Link* -->
+    <!-- iframe can be used as the target frame for a link -->
+    <!-- "target" attribute of the link must refer to the "name" attribute of the iframe -->
+    <iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+    <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML FILE PATHS __________ -->
+    <!-- 
+        <img src="picture.jpg">:          picture.jpg is located in the same folder as the current page
+        <img src="images/picture.jpg">:   picture.jpg is located in the images folder in the current folder
+        <img src="/images/picture.jpg">:  picture.jpg is located in the images folder at the root of the current web 
+        <img src="../picture.jpg">: 	  picture.jpg is located in the folder one level up from the current folder
+    -->
+
+
+
+    <!-- *HTML File Paths* -->
+    <!-- a file path describes the location of a file in a web site's folder structure -->
+    <!-- file paths are used when linking to external files like: -->
+    <!--
+        Web pages
+        Images
+        Style sheets
+        JavaScripts
+    -->
+
+
+
+    <!-- *Absolute File Paths* -->
+    <!-- an absolute file path is the full URL to an internet file: -->
+    <img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
+
+
+
+    <!-- *Relative File Paths* -->
+    <!-- relative file path points to a file relative to the current page -->
+    
+    <!-- In this example, the file path points to a file in the images folder located at the root of the current web: -->
+    <img src="/images/picture.jpg" alt="Mountain">
+
+    <!-- In this example, the file path points to a file in the images folder located in the current folder: -->
+    <img src="images/picture.jpg" alt="Mountain">
+
+    <!-- In this example, the file path points to a file in the images folder located in the folder one level above the current folder: -->
+    <img src="../images/picture.jpg" alt="Mountain">
+
+
+
+
+
+
+
+
+    <!-- __________ HTML HEAD __________ -->
+
+    <!-- *HTML <head> Element* -->
+    <!-- <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag -->
+    <!-- HTML metadata is data about the HTML document. Metadata is not displayed -->
+    <!-- metadata typically define the document title, character set, styles, scripts, and other meta information -->
+    <!-- the following tags describe metadata: <title>, <style>, <meta>, <link>, <script>, and <base> -->
+
+
+
+    <!-- *HTML <title> Element* -->
+    <!-- <title> element defines the title of the document, and is required in all HTML documents -->
+    <!-- <title> element: -->
+    <!--
+        defines a title in the browser tab
+        provides a title for the page when it is added to favorites
+        displays a title for the page in search engine results
+    -->   
+
+
+
+    <!-- *HTML <style> Element* -->
+    <!-- <style> element is used to define style information for a single HTML page -->
+    <style>
+         body {background-color: powderblue;}
+        h1 {color: red;}
+        p {color: blue;}
+    </style>    
+
+
+
+    <!-- *HTML <link> Element* -->
+    <!-- <link> element is used to link to external style sheets -->
+    <link rel="stylesheet" href="mystyle.css">
+
+
+
+    <!-- *HTML <meta> Element* -->
+    <!-- <meta> element is used to specify which character set is used, page description, keywords, author, and other metadata -->
+    <!-- metadata is used by browsers (how to display content), by search engines (keywords), and other web services -->
+
+    <!-- Define the character set used: -->
+    <meta charset="UTF-8">
+
+
+    <!-- Define a description of your web page: -->
+    <meta name="description" content="Free Web tutorials">
+    
+
+    <!-- Define keywords for search engines: -->
+    <meta name="keywords" content="HTML, CSS, XML, JavaScript">
+
+
+    <!-- Define the author of a page: -->
+    <meta name="author" content="John Doe">
+
+
+    <!-- Refresh document every 30 seconds: -->
+    <meta http-equiv="refresh" content="30">
+    
+
+    <!-- Example of <meta> tags: -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+
+
+
+    <!-- *Setting The Viewport* -->
+    <!-- bilgisayar, telefon, tablet gibi her türlü elektronik cihaz içinde site görünümünü güzelleştirir -->
+    <!-- HTML5 introduced a method to let web designers take control over the viewport, through the <meta> tag -->
+    <!-- the viewport is the user's visible area of a web page. It varies with the device, and will be smaller on a mobile phone than on a computer screen -->
+    
+    <!-- you should include the following <meta> viewport element in all your web pages -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling -->
+    <!-- the width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device) -->
+    <!-- the initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser -->
+
+
+
+    <!-- *HTML <script> Element* -->
+    <!-- <script> element is used to define client-side JavaScripts -->
+    
+    <!-- This JavaScript writes "Hello JavaScript!" into an HTML element with id="demo" -->
+    <!--
+        <script>
+            function myFunction {
+                document.getElementById("demo").innerHTML = "Hello JavaScript!";
+            }
+        </script>
+    -->
+
+
+
+    <!-- *HTML <base> Element* -->
+    <!-- <base> element specifies the base URL and base target for all relative URLs in a page -->
+    <base href="https://www.w3schools.com/images/" target="_blank">
+
+
+
+
+
+
+
+
+    <!-- __________ HTML LAYOUTS __________ -->
+
+    <!-- *HTML Layout Elements* -->
+    <!-- websites often display content in multiple columns (like a magazine or newspaper) -->
+    <!-- HTML offers several semantic elements that define the different parts of a web page: -->
+    <!--
+        <header>:   HTML sayfanın ana başlığının olduğu bölgedir
+        <nav>:      HTML sayfasının menü bölgedir. Site içerisinde gezinmek için genellikle bu bölge kullanılır
+        <section>:  HTML sayfasının içerik üstü bölgesidir
+        <article>:  HTML sayfasının makale bölgesidir
+        <aside>:    HTML sayfasının kenarlık bölgesidir. Sayfanın sağında veya solunda olabilir. Menü olarak kullanımı yaygındır
+        <footer>:   HTML sayfasının son bölgesidir
+        <details>:  Defines additional details
+        <summary>:  Defines a heading for the <details> element
+    -->
+
+
+
+    <!-- *HTML Layout Techniques* -->
+    <!-- there are five different ways to create multicolumn layouts. Each way has its pros and cons: -->
+    <!--
+        1)HTML tables (not recommended)
+        2)CSS float property
+        3)CSS flexbox
+        4)CSS framework
+        5)CSS grid
+    -->
+
+
+
+    <!-- Which One to Choose? -->
+    
+    <!-- 1)HTML Tables -->
+    <!-- do not use tables for your page layout -->
+    <!-- the <table> element was not designed to be a layout tool! -->
+    <!-- purpose of the <table> element is to display tabular data -->
+    <!-- so, do not use tables for your page layout! They will bring a mess into your code -->
+
+
+
+    <!-- 2)CSS Frameworks -->
+    <!-- if you want to create your layout fast, you can use a framework, like W3.CSS or Bootstrap -->
+
+
+
+    <!-- 3)CSS Floats -->
+    <!-- it is common to do entire web layouts using the CSS float property -->
+    <!-- float is easy to learn - you just need to remember how the float and clear properties work -->
+    <!-- Disadvantages: Floating elements are tied to the document flow, which may harm the flexibility -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>CSS Template</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style> 
+    *   {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }   
+
+        /* Style the header */
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px; /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px; /* only for demonstration, should be removed */
+        }
+
+        /* Clear floats after the columns */
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+            nav, article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+    </head>
+    <body>
+        <h2>CSS Layout Float</h2>
+        <p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+        <p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
+
+        <header>
+        <h2>Cities</h2>
+        </header>
+
+        <section>
+            <nav>
+                <ul>
+                <li><a href="#">London</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+                </ul>
+            </nav>
+    
+            <article>
+                <h1>London</h1>
+                <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+                <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+            </article>
+        </section>
+
+        <footer>
+            <p>Footer</p>
+        </footer>
+
+    </body>
+    </html>
+
+
+
+    <!-- 4)CSS Flexbox -->
+    <!-- Flexbox is a new layout mode in CSS3 -->
+    <!-- use of flexbox ensures that elements behave predictably when the page layout must accommodate different screen sizes and different display devices -->
+    <!-- Disadvantages: Does not work in IE10 and earlier -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>CSS Template</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        *   {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            /* Style the header */
+            header {
+                background-color: #666;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+
+            /* Container for flexboxes */
+            section {
+                display: -webkit-flex;
+                display: flex;
+            }
+
+            /* Style the navigation menu */
+            nav {
+                -webkit-flex: 1;
+                -ms-flex: 1;
+                flex: 1;
+                background: #ccc;
+                padding: 20px;
+            }
+
+            /* Style the list inside the menu */
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            /* Style the content */
+            article {
+                -webkit-flex: 3;
+                -ms-flex: 3;
+                flex: 3;
+                background-color: #f1f1f1;
+                padding: 10px;
+            }
+
+            /* Style the footer */
+            footer {
+                background-color: #777;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+
+            /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+            @media (max-width: 600px) {
+            section {
+                -webkit-flex-direction: column;
+                flex-direction: column;
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <h2>CSS Layout Flexbox</h2>
+        <p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+        <p>Resize the browser window to see the responsive effect.</p>
+        <p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 and earlier versions.</p>
+
+        <header>
+            <h2>Cities</h2>
+        </header>
+
+        <section>
+            <nav>
+                <ul>
+                <li><a href="#">London</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+                </ul>
+            </nav>
+    
+            <article>
+                <h1>London</h1>
+                <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+                <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+            </article>
+        </section>
+
+        <footer>
+            <p>Footer</p>
+        </footer>
+
+    </body>
+    </html>
+
+
+
+    <!-- 5)CSS Grid View -->
+    <!-- CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning -->
+    <!-- Disadvantages: Does not work in IE nor in Edge 15 and earlier -->
+
+
+
+
+
+
+
+
+    <!-- __________ HTML RESPONSIVE WEB DESIGN __________ -->
+    <!-- Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones) -->
+    <!-- a web page should look good on any device! -->
+
+
+
+    <!-- *Setting The Viewport* -->
+    <!-- when making responsive web pages, add the following <meta> element in all your web pages -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <!-- *Responsive Images* -->
+    <!-- responsive images are images that scale nicely to fit any browser size -->
+
+    
+    <!-- __ Using the width Property __-->
+    <!-- if the CSS "width" property is set to 100%, the image will be responsive and scale up and down -->
+    <img src="futbol.jpg" style="width: 100%;">
+
+    
+    <!-- __ Using the max-width Property __-->
+    <!-- notice that in the example above, the image can be scaled up to be larger than its original size. A better solution, in many cases, will be to use the max-width property instead -->
+    <!-- if the "max-width" property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size -->
+    <img src="basketbol.jpg" style="max-width: 100%; height: auto;">
+
+    
+    <!-- __ Show Different Images Depending on Browser Width __ -->
+    <!-- HTML <picture> element allows you to define different images for different browser window sizes -->
+    <picture>
+        <source srcset="kapadokya.jpg" media="(max-width: 600px)">
+        <source srcset="futbol.jpg" media="(max-width: 1500px)">
+        <source srcset="fb.jpg">
+        <img src="futbol.jpg" alt="futbol">
+    </picture>
+
+
+
+    <!-- *Responsive Text Size* -->
+    <!-- text size can be set with a "vw" unit, which means the "viewport width" -->
+    <!-- that way the text size will follow the size of the browser window -->
+    <!-- viewport is the browser window size. 1vw = 1% of viewport width -->
+    <!-- if the viewport is 50cm wide, 1vw is 0.5cm -->
+    <h1 style="font-size: 10vw">Hello World</h1>
+
+
+
+    <!-- *Media Queries* -->
+    <!-- in addition to resize text and images, it is also common to use media queries in responsive web pages. -->
+    <!-- with media queries you can define completely different styles for different browser sizes -->
+    <style>
+        .left, .right {
+            float: left;
+            width: 20%; /* The width is 20%, by default */
+        }
+        
+        .main {
+            float: left;
+            width: 60%; /* The width is 60%, by default */
+        }
+        
+        /* Use a media query to add a breakpoint at 800px: */
+        @media screen and (max-width: 800px) {
+            .left, .main, .right {
+                width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+            }
+        }
+    </style>
+    <body>
+        <div class="left">
+            <p>Left Menu</p>
+        </div>
+          
+        <div class="main">
+            <p>Main Content</p>
+        </div>
+          
+        <div class="right">
+            <p>Right Content</p>
+        </div>
+    </body>
+
+
+
+    <!-- *Responsive Web Design - Frameworks* -->
+    <!-- there are many existing CSS Frameworks that offer Responsive Design -->
+    <!-- they are free, and easy to use -->
+
+
+    <!-- 1)Using W3.CSS -->
+    <!-- W3.CSS makes it easy to develop sites that look nice at any size; desktop, laptop, tablet, or phone -->
+    <!DOCTYPE html>
+    <html>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <body>
+        <div class="w3-container w3-green">
+            <h1>W3Schools Demo</h1>
+            <p>Resize this responsive page!</p>
+        </div>
+
+        <div class="w3-row-padding">
+        <div class="w3-third">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>It is the most populous city in the United Kingdom,
+            with a metropolitan area of over 13 million inhabitants.</p>
+        </div>
+
+        <div class="w3-third">
+            <h2>Paris</h2>
+            <p>Paris is the capital of France.</p>
+            <p>The Paris area is one of the largest population centers in Europe,
+            with more than 12 million inhabitants.</p>
+        </div>
+
+        <div class="w3-third">
+            <h2>Tokyo</h2>
+            <p>Tokyo is the capital of Japan.</p>
+            <p>It is the center of the Greater Tokyo Area,
+            and the most populous metropolitan area in the world.</p>
+        </div>
+        </div>
+    </body>
+    </html>
+
+
+    <!-- 2)Bootstrap -->
+    <!-- another popular framework is Bootstrap, it uses HTML, CSS and jQuery to make responsive web pages -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+        <div class="jumbotron">
+            <h1>My First Bootstrap Page</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+            ...
+            </div>
+            <div class="col-sm-4">
+            ...
+            </div>
+            <div class="col-sm-4">
+            ...
+            </div>
+        </div>
+        </div>
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML COMPUTER CODE ELEMENTS __________ -->
+
+    <!-- *HTML <kbd> For Keyboard Input* -->
+    <!-- HTML <kbd> element represents user input, like keyboard input or voice commands -->
+    <!-- text surrounded by <kbd> tags is typically displayed in a monospace font -->
+    <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>    
+    
+
+
+    <!-- *HTML <samp> For Program Output* -->
+    <!-- HTML <samp> element represents output from a program or computing system -->
+    <!-- text surrounded by <samp> is typically displayed in a monospace font -->
+    <p>If you input wrong value, the program will return <samp>Error!</samp></p>
+
+
+
+    <!-- *HTML <code> For Computer Code* -->
+    <!-- HTML <code> element defines a fragment of computer code -->
+    <!-- text surrounded by <code> tags is typically displayed in a monospace font -->
+    <!-- notice that the <code> element does not preserve extra whitespace and line-breaks -->
+    <code>
+        x = 5;<br>
+        y = 6;<br>
+        z = x + y;
+    </code>
+
+
+
+    <!-- *HTML <var> For Variables* -->
+    <!-- HTML <var> element defines a variable -->
+    <!-- the variable could be a variable in a mathematical expression or a variable in programming contex -->
+    <p>Einstein wrote: <var>E</var> = <var>mc</var><sup>2</sup></p>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML SEMANTIC ELEMENTS __________ -->
+    <!-- semantic elements = elements with a meaning -->
+    <!-- semantic elements clearly describe its meaning to both the browser and the developer -->
+    <!-- examples of non-semantic elements: <div> and <span> - Tells nothing about its content -->
+    <!-- examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content -->
+
+
+    
+    <!-- *Semantic Elements in HTML* -->
+    <!-- many web sites contain HTML code like: <div id="nav"> <div class="header"> <div id="footer"> to indicate navigation, header, and footer -->
+    <!-- in HTML there are some semantic elements that can be used to define different parts of a web page: -->
+    <!--
+        <article>
+        <aside>
+        <details>
+        <figcaption>
+        <figure>
+        <footer>
+        <header>
+        <main>
+        <mark>
+        <nav>
+        <section>
+        <summary>
+        <time>
+    -->
+
+
+    
+    <!-- *HTML <section> Element* -->
+    <!-- HTML sayfasının içerik üstü bölgesidir -->
+    <!-- according to W3C's HTML documentation: "A section is a thematic grouping of content, typically with a heading." -->
+    <!-- a home page could normally be split into sections for introduction, content, and contact information -->
+    <section>
+        <h1>WWF</h1>
+        <p>The World Wide Fund for Nature (WWF) is....</p>
+    </section>
+    
+
+
+    <!-- *HTML <article> Element* -->
+    <!-- <article> element specifies independent, self-contained content -->
+    <!-- an article should make sense on its own, and it should be possible to read it independently from the rest of the web site -->
+    <!--
+        Examples of where an <article> element can be used:
+        *Forum post
+        *Blog post
+        *Newspaper article
+    -->
+    <article>
+        <h1>What Does WWF Do?</h1>
+        <p>WWF's mission is to stop the degradation of our planet's natural environment,
+        and build a future in which humans live in harmony with nature.</p>
+    </article>
+
+
+
+    <!-- Nesting <article> in <section> or Vice Versa? -->
+    <!-- <article> element specifies independent, self-contained content -->
+    <!-- <section> element defines section in a document -->
+    <!-- can we use the definitions to decide how to nest those elements? No, we cannot! -->
+    <!-- so, on the Internet, you will find HTML pages with <section> elements containing <article> elements, and <article> elements containing <section> elements -->
+    <!-- you will also find pages with <section> elements containing <section> elements, and <article> elements containing <article> elements -->
+    <!-- Example for a newspaper: The sport <article> in the sport section, may have a technical section in each <article> -->
+    
+
+
+    <!-- *HTML <header> Element* -->
+    <!-- <header> element specifies a header for a document or section -->
+    <!-- you can have several <header> elements in one document -->
+    <article>
+        <header>
+            <h1>What Does WWF Do?</h1>
+            <p>WWF's mission:</p>
+        </header>
+        <p>WWF's mission is to stop the degradation of our planet's natural environment, and build a future in which humans live in harmony with nature.</p>
+    </article>  
+    
+    
+
+    <!-- *HTML <footer> Element* -->
+    <!-- HTML sayfasının son bölgesidir -->
+    <!-- <footer> element should contain information about its containing element -->
+    <!-- a footer typically contains the author of the document, copyright information, links to terms of use, contact information, etc -->
+    <!-- you may have several <footer> elements in one document -->
+    <footer>
+        <p>Posted by: Hege Refsnes</p>
+        <p>Contact information: <a href="mailto:someone@example.com"> someone@example.com</a>.</p>
+    </footer>
+
+
+
+    <!-- *HTML <nav> Element* -->
+    <!-- HTML sayfasının menü bölgedir. Site içerisinde gezinmek için genellikle bu bölge kullanılır -->
+    <!-- <nav> element defines a set of navigation links -->
+    <!-- notice that NOT all links of a document should be inside a <nav> element -->
+    <!-- <nav> element is intended only for major block of navigation links -->
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/jquery/">jQuery</a>
+    </nav>
+
+
+
+    <!-- *HTML <aside> Element* -->
+    <!-- HTML sayfasının kenarlık bölgesidir. Sayfanın sağında veya solunda olabilir. Menü olarak kullanımı yaygındır -->
+    <!-- <aside> element defines some content aside from the content it is placed in (like a sidebar) -->
+    <!-- <aside> content should be related to the surrounding content -->
+    <p>My family and I visited The Epcot center this summer.</p>
+    <aside>
+        <h4>Epcot Center</h4>
+        <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+    </aside>
+
+
+
+    <!-- *HTML <figure> and <figcaption> Elements* -->
+    <!-- an image and a caption can be grouped together in a <figure> element -->
+    <!-- the purpose of a caption is to add a visual explanation to an image -->
+    <!-- <img> element defines the image, the <figcaption> element defines the caption -->
+    <figure>
+        <img src="kapadokya.jpg" alt="kapadokya" height="42" width="63">
+        <figcaption>Kapadokya, Türkiye</figcaption>
+    </figure>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML SYMBOL ENTITIES __________ -->
+    <!-- many mathematical, technical, and currency symbols, are not present on a normal keyboard -->
+    <!-- to add such symbols to an HTML page, you can use an HTML entity name -->
+    <p>I will display &euro;</p>
+    <p>I will display &#8364;</p>
+    <p>I will display &#x20AC;</p>
+    
+    <!--
+        Some Greek Letters Supported by HTML:
+        CHAR     NUMBER     ENTITY      DESCRIPTION
+        Α	     &#913;	    &Alpha;	    GREEK CAPITAL LETTER ALPHA
+        Β	     &#914;	    &Beta;	    GREEK CAPITAL LETTER BETA
+        Γ	     &#915;	    &Gamma;	    GREEK CAPITAL LETTER GAMMA
+        Δ	     &#916;	    &Delta;	    GREEK CAPITAL LETTER DELTA
+        Ε	     &#917;	    &Epsilon;	GREEK CAPITAL LETTER EPSILON
+        Ζ	     &#918;	    &Zeta;	    GREEK CAPITAL LETTER ZETA
+    -->  
+
+    <!--
+        Some Other Entities Supported by HTML:
+        CHAR     NUMBER     ENTITY      DESCRIPTION
+        ©	     &#169;	    &copy;	    COPYRIGHT SIGN
+        ®	     &#174;	    &reg;	    REGISTERED SIGN
+        €	     &#8364;	&euro;	    EURO SIGN
+        ™	     &#8482;	&trade;	    TRADEMARK
+        ←	     &#8592;	&larr;	    LEFTWARDS ARROW
+        ↑	     &#8593;	&uarr;	    UPWARDS ARROW
+        →	     &#8594;	&rarr;	    RIGHTWARDS ARROW
+        ↓	     &#8595;	&darr;	    DOWNWARDS ARROW
+        ♠	     &#9824;	&spades;	BLACK SPADE SUIT
+        ♣	     &#9827;	&clubs;	    BLACK CLUB SUIT
+        ♥	     &#9829;	&hearts;	BLACK HEART SUIT
+    -->
+
+
+
+
+
+
+
+
+    <!-- __________ USING EMOJIS __________ -->
+    <!-- emojis are letters (characters) from the UTF-8 (Unicode) alphabet -->
+    <!-- UTF-8 covers almost all of the characters and symbols in the world -->
+
+
+
+    <!-- *HTML charset Attribute* -->
+    <!-- to display an HTML page correctly, a web browser must know the character set used in the page -->
+    <!-- this is specified in the <meta> tag -->
+    <meta charset="UTF-8">
+
+
+
+    <!-- *UTF-8 Characters* -->
+    <!-- many UTF-8 characters cannot be typed on a keyboard, but they can always be displayed using numbers (called entity numbers) -->
+    <!--
+        A is 65
+        B is 66
+        C is 67
+    -->
+    <!DOCTYPE html>
+    <html>
+    <meta charset="UTF-8">
+    <body>
+        <p>I will display A B C</p>
+        <p>I will display &#65; &#66; &#67;</p>
+    </body>
+    </html>
+    <!--
+        Example Explained:
+        The <meta charset="UTF-8"> element defines the character set
+        The characters A, B, and C, are displayed by the numbers 65, 66, and 67
+        To let the browser understand that you are displaying a character, you must start the entity number with &# and end it with ; (semicolon)
+    -->
+
+
+
+    <!-- *Emoji Characters* -->
+    <!-- emojis are also characters from the UTF-8 alphabet -->
+    <!--
+        😄 is 128516
+        😍 is 128525
+        💗 is 128151
+    -->
+    <!DOCTYPE html>
+    <html>
+    <meta charset="UTF-8">
+    <body>
+    <h1>My First Emoji</h1>
+        <p>&#128512;</p>
+    </body>
+    </html>
+
+    <!-- since emojis are characters, they can be copied, displayed, and sized just like any other character in HTML -->
+    <!DOCTYPE html>
+    <html>
+    <meta charset="UTF-8">
+    <body>
+        <h1>Sized Emojis</h1>
+        <p style="font-size:25px">
+            &#128512; &#128516; &#128525; &#128151;
+        </p>
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML URL ENCODE __________ -->
+    <!-- URL (Uniform Resource Locators) is another word for a web address -->
+    <!-- URL can be composed of words (w3schools.com), or an Internet Protocol (IP) address (192.68.20.50) -->
+    <!-- most people enter the name when surfing, because names are easier to remember than numbers -->
+    <!-- web browsers request pages from web servers by using a URL -->
+    <!-- URL is used to address a document (or other data) on the web -->
+    <!--
+        a web address like https://www.w3schools.com/html/default.asp follows these syntax rules:
+        "scheme://prefix.domain:port/path/filename"
+        scheme:    defines the type of Internet service (most common is http or https)
+        prefix:    defines a domain prefix (default for http is www)
+        domain:    defines the Internet domain name (like w3schools.com)
+        port:      defines the port number at the host (default for http is 80)
+        path:      defines a path at the server (If omitted: the root directory of the site)
+        filename:  defines the name of a document or resource
+    -->
+
+
+
+    <!-- *Common URL Schemes* -->
+    <!--
+        SCHEME	   SHORT FOR	                        USED FOR
+        http	   HyperText Transfer Protocol	        Common web pages. Not encrypted
+        https	   Secure HyperText Transfer Protocol	Secure web pages. Encrypted
+        ftp	       File Transfer Protocol	            Downloading or uploading files
+        file	   A file on your computer
+    -->
+
+
+
+
+
+
+
+
+    <!-- __________ HTML and XHTML __________ -->
+
+    <!-- What Is XHTML? -->
+    <!--
+        *XHTML is HTML written as XML
+        *XHTML stands for EXtensible HyperText Markup Language
+        *XHTML is almost identical to HTML
+        *XHTML is stricter than HTML
+        *XHTML is HTML defined as an XML application
+        *XHTML is supported by all major browsers
+    -->
+
+
+
+    <!-- Why XHTML? -->
+    <!-- many pages on the internet contain "bad" HTML -->
+    <!-- this HTML code works fine in most browsers (even if it does not follow the HTML rules) -->
+    <html>
+    <head>
+    <title>This is bad HTML</title>
+    <body>
+        <h1>Bad HTML
+        <p>This is a paragraph
+    </body>
+
+    <!-- XML is a markup language where documents must be marked up correctly (be "well-formed") -->
+    <!-- XHTML was developed by combining the strengths of HTML and XML -->
+
+
+
+    <!-- *The Most Important Differences from HTML* -->
+    <!--
+        Document Structure:
+        *XHTML DOCTYPE is mandatory
+        *The xmlns attribute in <html> is mandatory
+        *<html>, <head>, <title>, and <body> are mandatory
+    -->
+    <!--
+        XHTML Elements:
+        *XHTML elements must be properly nested
+        *XHTML elements must always be closed
+        *XHTML elements must be in lowercase
+        *XHTML documents must have one root element
+    -->
+    <!--
+        XHTML Attributes:
+        *Attribute names must be in lower case
+        *Attribute values must be quoted
+        *Attribute minimization is forbidden
+    -->
+
+
+
+
+
+
+
+
+    <!-- __________ HTML FORMS __________ -->
+
+    <!-- *The <form> Element* -->
+    <!-- HTML <form> element defines a form that is used to collect user input: -->
+    <!--
+        <form>
+        .
+        form elements
+        .
+        </form>
+    -->
+    <!-- an HTML form contains form elements -->
+    <!-- form elements are different types of input elements, like: text fields, checkboxes, radio buttons, submit buttons, and more -->
+
+
+
+    <!-- *The <input> Element* -->
+    <!-- <input> element is the most important form element -->
+    <!-- <input> element is displayed in several ways, depending on the type attribute -->
+    <!--
+        Here are some examples:
+        <input type="text">:	Defines a single-line text input field
+        <input type="radio">:	Defines a radio button (for selecting one of many choices)
+        <input type="submit">:	Defines a submit button (for submitting the form)
+    -->
+
+
+
+    <!-- *The <label> Element* -->
+    <!-- C# form'da kullanılan label -->
+    <!-- <label> tag defines a label for many form elements -->
+    <!-- "for" attribute of the <label> tag, should be equal to the "id" attribute of the <input> element to bind them together -->
+
+
+
+    <!-- *Text Fields* -->
+    <!-- <input type="text"> defines a single-line input field for text input -->
+    <form>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname">
+    </form>
+
+
+
+    <!-- *Radio Buttons* -->
+    <!-- <input type="radio"> defines a radio button -->
+    <!-- radio buttons let a user select ONE of a limited number of choices -->
+    <form>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+    </form>
+
+
+
+    <!-- *Submit Button* -->
+    <!-- <input type="submit"> defines a button for submitting the form data to a form-handler -->
+    <!-- form-handler is specified in the form's "action" attribute -->
+    <!-- submit butonuna tıklandığında action'ın yanında yazılı olan linke gider -->
+    <form action="https://eksisozluk.com/">
+        <p>Ekşi sözlüğe giriş:</p><br>
+        <label for="nick">Nick</label><br>
+        <input type="text" id="nick" name="nick" value="Ahmet"><br>
+        <label for="password">Password</label><br>
+        <input type="text" id="password" name="password"><br>
+        <input type="submit" value="submitle anam"><br><br>
+    </form>
+    <!-- value değeri girildiği zaman boşluğu otomatikman doldurur -->
+
+
+
+
+
+
+
+
+    <!-- __________ HTML FORM ELEMENTS __________ -->
+    
+    <!-- *The <input> Element* -->
+    <!-- <input> element can be displayed in several ways, depending on the type attribute -->
+    <input type="text" id="firstname" name="firstname"><br><br>
+
+
+
+    <!-- *The <select> Element* -->
+    <!-- <select> element defines a "drop-down" list (açılır liste) -->
+    <!-- <option> elements defines an option that can be selected -->
+    <!-- by default, the first item in the drop-down list is selected -->
+    <!-- to define a pre-selected option, add the "selected" attribute to the option -->
+    <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="fiat" selected>Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
+    
+
+    <!-- ___ Visible Values ___ -->
+    <!-- use the "size" attribute to specify the number of visible values -->
+    <!-- ilk başta ilk 3'ü gözükür. Aşağı kaydırınca 4. item gözükür-->
+    <select name="cars" size="3">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
+
+
+    <!-- ___ Allow Multiple Selections ___ -->
+    <!-- use the "multiple" attribute to allow the user to select more than one value -->
+    <!-- çoklu seçenek yaparken "ctrl" ye basarak seçilir -->
+    <select name="cars" size="4" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
+
+
+
+    <!-- *The <textarea> Element* -->
+    <!-- <textarea> element defines a multi-line input field (a text area) -->
+    <textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+    </textarea>
+
+    <!-- you can also define the size of the text area by using CSS -->
+    <textarea name="message" style="width:200px; height:600px;">
+        The cat was playing in the garden.
+    </textarea>
+
+
+
+    <!-- *The <button> Element* -->
+    <!-- <button> element defines a clickable button -->
+    <button type="button" onclick="alert('Aferin tıkladın da adam mı oldun!')">Tıkla bakıyım aslan barçası</button><br><br>
+
+
+
+    <!-- *The <fieldset> and <legend> Elements* -->
+    <!-- <fieldset> element is used to group related data in a form -->
+    <!-- <legend> element defines a caption for the <fieldset> element -->
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset><br><br>
+    </form>
+
+
+
+    <!-- *The <datalist> Element* -->
+    <!-- <datalist> element specifies a list of pre-defined options for an <input> element -->
+    <!-- users will see a drop-down list of the pre-defined options as they input data -->
+    <!-- "list" attribute of the <input> element, must refer to the "id" attribute of the <datalist> element -->
+    <form>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+    </form>
+
+
+
+    <!-- *The <output> Element* -->
+    <!-- <output> element represents the result of a calculation (like one performed by a script) -->
+    <form action="/action_page.php"
+        oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range"  id="a" name="a" value="50">
+        100 +
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br><br>
+        <input type="submit">
+    </form>    
+
+
+
+
+
+
+
+
+    <!-- __________ HTML INPUT TYPES __________ -->
+    <!--
+        Here are the different input types you can use in HTML:
+        <input type="button">
+        <input type="checkbox">
+        <input type="color">
+        <input type="date">
+        <input type="datetime-local">
+        <input type="email">
+        <input type="file">
+        <input type="hidden">
+        <input type="image">
+        <input type="month">
+        <input type="number">
+        <input type="password">
+        <input type="radio">
+        <input type="range">
+        <input type="reset">
+        <input type="search">
+        <input type="submit">
+        <input type="tel">
+        <input type="text">
+        <input type="time">
+        <input type="url">
+        <input type="week">
+    -->
+
+
+
+    <!-- *Input Type Text* -->
+    <!-- <input type="text"> defines a single-line text input field -->
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+    </form><br><br>
+
+
+
+    <!-- *Input Type Password* -->
+    <!-- <input type="password"> defines a password field -->
+    <form>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" value="osman"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd">
+    </form><br><br>
+
+
+
+    <!-- *Input Type Submit* -->
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+    </form><br><br>
+
+
+
+    <!-- *Input Type Reset* -->
+    <!-- <input type="reset"> defines a reset button that will reset all form values to their default values -->
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form><br><br>
+
+
+
+    <!-- *Input Type Radio* -->
+    <!-- <input type="radio"> defines a radio button -->
+    <!-- radio buttons let a user select ONLY ONE of a limited number of choices -->
+    <form>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+    </form><br><br>
+
+
+
+    <!-- *Input Type Checkbox* -->
+    <!-- <input type="checkbox"> defines a checkbox -->
+    <!-- checkboxes let a user select ZERO or MORE options of a limited number of choices -->
+    <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+    </form><br><br>
+
+
+
+    <!-- *Input Type Button* -->
+    <!-- <input type="button"> defines a button -->
+    <input type="button" onclick="alert('Hello World!')" value="Click Me!"><br><br>
+
+
+
+    <!-- *Input Type Color* -->
+    <!-- <input type="color"> is used for input fields that should contain a color -->
+    <form>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor">
+    </form><br><br>
+
+
+
+    <!-- *Input Type Date* -->
+    <!-- <input type="date"> is used for input fields that should contain a date -->
+    <form>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+    </form><br><br>
+
+    <!-- you can also use the "min" and "max" attributes to add restrictions to dates -->
+    <form>
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02">
+    </form>
+
+
+
+    <!-- *Input Type Datetime-local* -->
+    <!-- <input type="datetime-local"> specifies a date and time input field, with no time zone -->
+    <form>
+        <label for="birthdaytime">Birthday (date and time):</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+    </form><br><br>
+
+
+
+    <!-- *Input Type Email* -->
+    <!-- <input type="email"> is used for input fields that should contain an e-mail address -->
+    <form>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email">
+    </form><br><br>
+
+
+
+    <!-- *Input Type File* -->
+    <!-- <input type="file"> defines a file-select field and a "Browse" button for file uploads -->
+    <form>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+    </form><br><br>
+
+
+
+    <!-- *Input Type Month* -->
+    <!-- <input type="month"> allows the user to select a month and year -->
+    <form>
+        <label for="bdaymonth">Birthday (month and year):</label>
+        <input type="month" id="bdaymonth" name="bdaymonth">
+    </form><br><br>
+
+
+
+    <!-- *Input Type Number* -->
+    <!-- <input type="number"> defines a numeric input field -->
+    <!-- you can also set restrictions on what numbers are accepted -->
+    <!-- the following example displays a numeric input field, where you can enter a value from 0 to 50 -->
+    <form>
+        <label for="quantity">Quantity (between 0 and 50):</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="50" step="10">
+    </form><br><br>
+    <!-- "step", değerin kaçar kaçar artacağını belirler -->
+
+
+
+    <!-- *Input Type Range* -->
+    <!-- <input type="range"> defines a control for entering a number whose exact value is not important (like a slider control) -->
+    <!-- default range is 0 to 100 -->
+    <!-- however, you can set restrictions on what numbers are accepted with the "min", "max" and "step" attributes -->
+    <form>
+        <label for="vol">Volume (between 0 and 50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50">
+    </form><br><br>
+
+
+
+    <!-- *Input Type Search* -->
+    <!-- <input type="search"> is used for search fields (a search field behaves like a regular text field) -->
+    <form>
+        <label for="gsearch">Search Google:</label>
+        <input type="search" id="gsearch" name="gsearch">
+    </form><br><br>
+
+
+
+    <!-- *Input Type Tel* -->
+    <!-- <input type="tel"> is used for input fields that should contain a telephone number -->
+    <form>
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+    </form><br><br>
+
+
+
+    <!-- *Input Type Time* -->
+    <!-- <input type="time"> allows the user to select a time (no time zone) -->
+    <form>
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt">
+    </form><br><br>
+
+
+
+    <!-- *Input Type URL* -->
+    <!-- <input type="url"> is used for input fields that should contain a URL address -->
+    <form>
+        <label for="homepage">Add your homepage:</label>
+        <input type="url" id="homepage" name="homepage">
+    </form><br><br>
+
+
+
+    <!-- *Input Type Week* -->
+    <!-- <input type="week"> allows the user to select a week and year -->
+    <form>
+        <label for="week">Select a week:</label>
+        <input type="week" id="week" name="week">
+    </form><br><br>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML INPUT ATTRIBUTES __________ -->
+
+    <!-- *The value Attribute* -->
+    <!-- the input "value" attribute specifies an initial value for an input field -->
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe">
+    </form><br><br>
+
+
+
+    <!-- *The readonly Attribute* -->
+    <!-- the input readonly attribute specifies that an input field is read-only -->
+    <!-- a read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it) -->
+    <!-- the value of a read-only input field will be sent when submitting the form! -->
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John" readonly><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe">
+    </form><br><br>
+    <!-- ilk text field değiştirilemez -->
+
+
+
+    <!-- *The disabled Attribute* -->
+    <!-- the input "disabled" attribute specifies that an input field should be disabled -->
+    <!-- a disabled input field is unusable and un-clickable -->
+    <!-- the value of a disabled input field will not be sent when submitting the form! -->
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John" disabled><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe">
+    </form><br><br>
+    <!-- ilk text field'a tıklanamaz -->
+
+
+
+    <!-- *The size Attribute* -->
+    <!-- the input "size" attribute specifies the visible width, in characters, of an input field -->
+    <!-- default value for size is 20 -->
+    <!-- the size attribute works with the following input types: text, search, tel, url, email, and password -->
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" size="50"><br>
+        <label for="pin">PIN:</label><br>
+        <input type="text" id="pin" name="pin" size="4">
+    </form><br><br>
+
+
+
+    <!-- *The maxlength Attribute* -->
+    <!-- the input "maxlength" attribute specifies the maximum number of characters allowed in an input field. -->
+    <!-- when a maxlength is set, the input field will not accept more than the specified number of characters -->
+    <!-- however, this attribute does not provide any feedback. So, if you want to alert the user, you must write JavaScript code -->
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" size="50"><br>
+        <label for="pin">PIN:</label><br>
+        <input type="text" id="pin" name="pin" maxlength="4" size="4">
+    </form><br><br>
+
+
+
+    <!-- *The min and max Attributes* -->
+    <!-- the input "min" and "max" attributes specify the minimum and maximum values for an input field -->
+    <!-- "min" and "max" attributes work with the following input types: number, range, date, datetime-local, month, time and week -->
+    <form>
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+      
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+      
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5">
+    </form><br><br>
+
+
+
+    <!-- *The multiple Attribute* -->
+    <!-- the input "multiple" attribute specifies that the user is allowed to enter more than one value in an input field -->
+    <!-- "multiple" attribute works with the following input types: email, and file -->
+    <form>
+        <label for="files">Select files:</label>
+        <input type="file" id="files" name="files" multiple>
+    </form><br><br>
+
+
+
+    <!-- *The pattern Attribute* -->
+    <!-- the input "pattern" attribute specifies a regular expression that the input field's value is checked against, when the form is submitted -->
+    <!-- "pattern" attribute works with the following input types: text, date, search, url, tel, email, and password -->
+    <form>
+        <label for="country_code">Country code:</label>
+        <input type="text" id="country_code" name="country_code"
+        pattern="[A-Za-z]{3}" title="Three letter country code">
+    </form><br><br>
+
+
+
+    <!-- *The placeholder Attribute* -->
+    <!-- the input "placeholder" attribute specifies short a hint that describes the expected value of an input field (a sample value or a short description of the expected format) -->
+    <!-- the short hint is displayed in the input field before the user enters a value -->
+    <!-- "placeholder" attribute works with the following input types: text, search, url, tel, email, and password -->
+    <form>
+        <label for="phone">Enter a phone number: (without 0 in the beginning)</label>
+        <input type="tel" id="phone" name="phone"
+        placeholder="123-456-8901"
+        pattern="[1-9]{3}-[0-9]{3}-[0-9]{4}">
+    </form><br><br>
+
+
+
+    <!-- *The required Attribute* -->
+    <!-- the input "required" attribute specifies that an input field must be filled out before submitting the form -->
+    <!-- "required" attribute works with the following input types: text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file -->
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+    </form><br><br>
+    <!-- username girilmesi zorunlu -->
+
+
+
+    <!-- *The step Attribute* -->
+    <!-- the input "step" attribute specifies the legal number intervals for an input field -->
+    <!-- sayıların kaçar kaçar arttığını belirler -->
+    <!-- "step" attribute works with the following input types: number, range, date, datetime-local, month, time and week -->
+    <form>
+        <label for="points">Points:</label>
+        <input type="number" id="points" name="points" step="3">
+    </form><br><br>
+
+
+    
+    <!-- *The autofocus Attribute* -->
+    <!-- the input "autofocus" attribute specifies that an input field should automatically get focus when the page loads -->
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" autofocus><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+    </form><br><br>
+    <!-- sayfa başlatıldığı zaman imleç otomatikman "First name" text field'ına gelir -->
+
+
+
+    <!-- *The height and width Attributes* -->
+    <!-- the input "height" and "width" attributes specify the height and width of an <input type="image"> element -->
+    <form>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="image" src="love.gif" alt="Submit" width="48" height="48">
+    </form><br><br>
+
+
+
+    <!-- *The list Attribute* -->
+    <!-- the input "list" attribute refers to a <datalist> element that contains pre-defined options for an <input> element -->
+    <form>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+    </form><br><br>   
+
+
+
+    <!-- *The autocomplete Attribute* -->
+    <!-- the input "autocomplete" attribute specifies whether a form or an input field should have autocomplete on or off -->
+    <!-- "autocomplete" allows the browser to predict the value. When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values -->
+    <!-- "autocomplete" attribute works with <form> and the following <input> types: text, search, url, tel, email, password, datepickers, range, and color -->
+    <form action="/action_page.php" autocomplete="on">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" autocomplete="off"><br><br>
+        <input type="submit" value="Submit">
+    </form><br><br>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML INPUT FORM* ATTRIBUTES __________ -->
+    
+    <!-- *The form Attribute* -->
+    <!-- the input "form" attribute specifies the form the <input> element belongs to -->
+    <!-- the value of this attribute must be equal to the "id" attribute of the <form> element it belongs to -->
+
+    <!-- An input field located outside of the HTML form (but still a part of the form): -->
+    <form action="/action_page.php" id="form1">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+      
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname" form="form1"><br><br>
+    <!-- form = "form1" yazarak yukarıdaki id'ye eşitledik ve <form> un dışında kalmış gibi gözükse de hala form'a aittir -->
+
+
+
+    <!-- *The formaction Attribute* -->
+    <!-- the input "formaction" attribute specifies the URL of the file that will process the input when the form is submitted -->
+    <!-- he input formaction attribute specifies the URL of the file that will process the input when the form is submitted -->
+    <!-- Note: This attribute overrides the "action" attribute of the <form> element -->
+    <!-- "formaction" attribute works with the following input types: submit and image -->
+    
+    <!-- An HTML form with two submit buttons, with different actions: -->
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
+    </form><br><br>
+
+
+
+    <!-- *The formenctype Attribute* -->
+    <!-- the input "formenctype" attribute specifies how the form-data should be encoded when submitted (only for forms with method="post") -->
+    <!-- Note: This attribute overrides the "enctype" attribute of the <form> element -->
+    <!-- "formenctype" attribute works with the following input types: submit and image -->
+
+    <!-- A form with two submit buttons. The first sends the form-data with default encoding, the second sends the form-data encoded as "multipart/form-data": -->
+    <form action="/action_page_binary.asp" method="post">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formenctype="multipart/form-data"
+        value="Submit as Multipart/form-data">
+    </form><br><br>
+
+
+
+    <!-- *The formmethod Attribute* -->
+    <!-- the input formmethod attribute defines the HTTP method for sending form-data to the action URL -->
+    <!-- Note: This attribute overrides the "method" attribute of the <form> element -->
+    <!-- "formmethod" attribute works with the following input types: submit and image -->
+    <!--
+        The form-data can be sent as URL variables (method="get") or as an HTTP post transaction (method="post")
+        
+        ___ Notes on the "get" method: ___
+        *This method appends the form-data to the URL in name/value pairs
+        *This method is useful for form submissions where a user want to bookmark the result
+        *There is a limit to how much data you can place in a URL (varies between browsers), therefore, you cannot be sure that all of the form-data will be correctly transferred
+        *Never use the "get" method to pass sensitive information! (password or other sensitive information will be visible in the browser's address bar)
+
+        ___ Notes on the "post" method: ___
+        *This method sends the form-data as an HTTP post transaction
+        *Form submissions with the "post" method cannot be bookmarked
+        *The "post" method is more robust and secure than "get", and "post" does not have size limitations
+    -->
+
+    <!-- A form with two submit buttons. The first sends the form-data with method="get". The second sends the form-data with method="post": -->
+    <form action="/action_page.php" method="get">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit using GET">
+        <input type="submit" formmethod="post" value="Submit using POST">
+    </form><br><br>
+
+
+
+    <!-- *The formtarget Attribute* -->
+    <!-- the input "formtarget" a attribute specifies a name or a keyword that indicates where to display the response that is received after submitting the form -->
+    <!-- Note: This attribute overrides the "target" attribute of the <form> element -->
+    <!-- "formtarget" attribute works with the following input types: submit and image -->
+    
+    <!-- A form with two submit buttons, with different target windows: -->
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
+    </form><br><br>
+
+
+
+    <!-- *The formnovalidate Attribute* -->
+    <!-- the input "formnovalidate" attribute specifies that an <input> element should not be validated when submitted -->
+    <!-- Note: This attribute overrides the "novalidate" attribute of the <form> element -->
+    <!-- "formnovalidate" attribute works with the following input types: submit -->
+    
+    <!-- A form with two submit buttons (with and without validation): -->
+    <form action="/action_page.php">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formnovalidate="formnovalidate"
+        value="Submit without validation">
+    </form><br><br>
+
+
+
+    <!-- *The novalidate Attribute* -->
+    <!-- the "novalidate" attribute is a <form> attribute -->
+    <!-- when present, novalidate specifies that all of the form-data should not be validated when submitted -->  
+
+    <!-- Specify that no form-data should be validated on submit: -->
+    <form action="/action_page.php" novalidate>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form><br><br>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML CANVAS __________ -->
+    <!-- HTML <canvas> element is used to draw graphics on a web page -->
+    <!-- the graphic to the left is created with <canvas> -->
+    <!--
+        It shows 4 elements:
+        1)red rectangle 
+        2)gradient rectangle 
+        3)multicolor rectangle 
+        4)multicolor text
+    -->
+
+
+
+    <!-- What is HTML Canvas? -->
+    <!-- HTML <canvas> element is used to draw graphics, on the fly, via JavaScript -->
+    <!-- the <canvas> element is only a container for graphics. You must use JavaScript to actually draw the graphics -->
+    <!-- canvas has several methods for drawing paths, boxes, circles, text, and adding images -->
+    
+
+
+    <!-- *Canvas Examples* -->
+    <!-- canvas is a rectangular area on an HTML page. By default, a canvas has no border and no content -->
+    <!-- always specify an "id" attribute (to be referred to in a script), and a "width" and "height" attribute to define the size of the canvas. To add a border, use the "style" attribute -->
+
+    <!-- Here is an example of a basic, empty canvas: -->
+    <canvas id="myCanvas" width="200" height="100" style="border: 2px solid green;"></canvas>
+
+
+    <!-- Draw a Line: -->
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0,0);
+        ctx.lineTo(200,100);
+        ctx.stroke();
+    </script>
+
+
+    <!-- Draw a Circle: -->
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(95,50,40,0,2*Math.PI);
+        ctx.stroke();
+    </script> 
+
+
+    <!-- Draw a Text: -->
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.fillText("Hello World",10,50);
+    </script>
+
+
+    <!-- Stroke Text: -->
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.strokeText("Hello World",10,50);
+    </script>
+
+
+    <!-- Draw Linear Gradient: -->
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        // Create gradient
+        var grd = ctx.createLinearGradient(0,0,200,0);
+        grd.addColorStop(0,"red");
+        grd.addColorStop(1,"white");
+        // Fill with gradient
+        ctx.fillStyle = grd;
+        ctx.fillRect(10,10,150,80);
+    </script>
+
+
+    <!-- Draw Circular Gradient: -->
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        
+        // Create gradient
+        var grd = ctx.createRadialGradient(75,50,5,90,60,100);
+        grd.addColorStop(0,"red");
+        grd.addColorStop(1,"white");
+        
+        // Fill with gradient
+        ctx.fillStyle = grd;
+        ctx.fillRect(10,10,150,80);
+    </script>
+
+
+
+
+
+
+
+
+    <!-- __________ HTML SVG __________ -->
+
+    <!--
+        What is SVG?
+        *SVG stands for Scalable Vector Graphics
+        *SVG is used to define graphics for the Web
+        *SVG is a W3C recommendation
+    -->
+
+
+
+    <!-- *HTML <svg> Element* -->
+    <!-- HTML <svg> element is a container for SVG graphics --> 
+    <!-- SVG has several methods for drawing paths, boxes, circles, text, and graphic images -->
+    
+
+
+    <!-- SVG Circle -->
+    <body>
+        <svg width="100" height="100">
+          <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+        </svg>
+    </body>
+
+
+    <!-- SVG Rectangle -->
+    <svg width="400" height="100">
+        <rect width="400" height="100" style="fill: rgb(0,0,255); stroke-width: 10; stroke: rgb(0,0,0)" />
+    </svg>
+
+
+    <!-- SVG Rounded Rectangle -->
+    <svg width="400" height="180">
+        <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+        style="fill: red; stroke: black; stroke-width: 5; opacity: 0.5" />
+    </svg>
+
+
+    <!-- SVG Star -->
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+        style="fill: lime; stroke: purple; stroke-width: 5; fill-rule: evenodd;" />
+    </svg>
+
+
+    <!-- SVG Logo -->
+    <svg height="130" width="500">
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color: rgb(255,255,0); stop-opacity:1" />
+            <stop offset="100%" style="stop-color: rgb(255,0,0); stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+        <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+        Sorry, your browser does not support inline SVG.
+    </svg>
+
+
+
+    <!-- 
+        ___ Differences Between SVG and Canvas ___
+        *SVG is a language for describing 2D graphics in XML
+        *Canvas draws 2D graphics, on the fly (with a JavaScript)
+        *SVG is XML based, which means that every element is available within the SVG DOM. You can attach JavaScript event handlers for an element
+        *In SVG, each drawn shape is remembered as an object. If attributes of an SVG object are changed, the browser can automatically re-render the shape
+        *Canvas is rendered pixel by pixel. In canvas, once the graphic is drawn, it is forgotten by the browser. If its position should be changed, the entire scene needs to be redrawn, including any objects that might have been covered by the graphic
+    -->
+
+
+
+    <!-- 
+        *Comparison of Canvas and SVG*
+        
+        ___ Canvas ___
+        *Resolution dependent
+        *No support for event handlers
+        *Poor text rendering capabilities
+        *You can save the resulting image as .png or .jpg
+        *Well suited for graphic-intensive games
+
+        ___ SVG ___
+        *Resolution independent
+        *Support for event handlers
+        *Best suited for applications with large rendering areas (Google Maps)
+        *Slow rendering if complex (anything that uses the DOM a lot will be slow)
+        *Not suited for game applications
+    -->
+
+    
+
+
+
+
+
+
+    <!-- __________ HTML VIDEO __________ -->
+
+    <!-- *HTML <video> Element* -->
+    <!-- to show a video in HTML, use the <video> element -->
+    <video width="350" height="350" controls>
+        <source src="C:\Users\ahmet\Downloads\itsmylife.mp4">
+    </video>
+
+
+
+    <!-- *HTML <video> Autoplay* -->
+    <!-- to start a video automatically use the "autoplay" attribute -->
+    <video width="320" height="240" autoplay>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+    </video>
+
+
+
+
+      
+
+
+
+    <!-- __________ HTML AUDIO __________ -->
+    <!-- before HTML5, audio files could only be played in a browser with a plug-in (like flash) -->
+    <!-- HTML5 <audio> element specifies a standard way to embed audio in a web page -->
+    
+
+    
+    <!-- *HTML <audio> Element* -->
+    <!-- to play an audio file in HTML, use the <audio> element -->
+    <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+    </audio>    
+
+
+
+
+
+
+
+
+    <!-- __________ HTML YOUTUBE VIDEOS __________ -->
+    <!-- the easiest way to play videos in HTML, is to use YouTube -->
+    <!-- YouTube will display an id (like tgbNymZ7vqY), when you save (or play) a video -->
+    <!-- you can use this id, and refer to your video in the HTML code -->
+
+
+
+    <!-- *Playing a YouTube Video in HTML* -->
+    <!-- 
+        To play your video on a web page, do the following:
+        *Upload the video to YouTube
+        *Take a note of the video id
+        *Define an <iframe> element in your web page
+        *Let the src attribute point to the video URL
+        *Use the width and height attributes to specify the dimension of the player
+        *Add any other parameters to the URL (see below)
+    -->
+    <iframe width="400" height="350"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+
+
+
+    <!-- *YouTube Autoplay* -->
+    <!-- you can have your video start playing automatically when a user visits that page by adding a simple parameter to your YouTube URL -->
+    <!-- 
+        Value 0: The video will not play automatically when the player loads (default)
+        Value 1: The video will play automatically when the player loads
+    -->
+    <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+    </iframe>
+
+
+
+    <!-- *YouTube Loop* -->
+    <!--
+        Value 0: The video will play only once (default)
+        Value 1: The video will loop forever
+    -->
+    <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
+    </iframe>
+
+
+
+    <!-- *YouTube Controls* -->
+    <!--
+        Value 0: Player controls does not display
+        Value 1: Player controls display (default)
+    -->
+    <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+    </iframe>
+
+</body>
+</html>   
+
